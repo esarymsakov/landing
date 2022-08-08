@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+/*--responsive--*/
+
+@media screen and (max-width: 419.98px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    label {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        display: table;
+        margin: 5px 0;
+    }
+
+    h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+
+
+    .main {
+        background: rgb(107,231,202);
+        background: linear-gradient(117deg, rgba(107,231,202,1) 0%, rgba(196,77,219,1) 50%, rgba(45,155,237,1) 100%);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .container {
+        margin: 0 15px;
+        padding: 0;
+    }
+
+    .back-link {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .form-input {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        padding: 10px 0 10px 5px;
+        border: 0;
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+
+    
+    .zone {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .lines-element {
+        width: 115px;
+        height: 15px;
+        margin: 12px 0;
+        background: rgb(111,107,249);
+        background: radial-gradient(circle, rgba(111,107,249,1) 0%, rgba(92,166,224,1) 100%);
+        border-radius: 200px;
+        box-shadow: 5px 5px lightblue;
+    }
+    
+    .decor-lines {
+        position: absolute;
+        top: 220px;
+        right: 0px;
+    }
+    
+    .decor-linesThree {
+        position: absolute;
+        top: 180px;
+        right: 50px;
+    }
+
+    .submit {
+        margin: 25px 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        padding: 15px 20px;
+        background: #49d3e0;
+        background: linear-gradient(90deg, rgba(73,211,224,1) 0%, rgba(61,230,152,1) 100%);
+        border: 0;
+        border-radius: 5px;
+        color: black;
+        display: flex;
+    
+    }
+    
+    .submit:hover {
+        transition: 5s;
+        background: rgb(114,216,226);
+        background: linear-gradient(90deg, rgba(114,216,226,1) 0%, rgba(116,219,171,1) 100%); 
+    }
+    
+    .submit-login {
+        margin: 25px 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        padding: 15px 35px;
+        background: #49d3e0;
+        background: linear-gradient(90deg, rgba(73,211,224,1) 0%, rgba(61,230,152,1) 100%);
+        border: 0;
+        border-radius: 5px;
+        color: black;
+        display: flex;
+    
+    }
+    
+    .submit-login:hover {
+        transition: 5s;
+        background: rgb(114,216,226);
+        background: linear-gradient(90deg, rgba(114,216,226,1) 0%, rgba(116,219,171,1) 100%); 
+    }
+
+    .forgot, .agree {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 7px;
+    
+    }
+    
+    
+}
+    
+
+/*--main--*/
+
