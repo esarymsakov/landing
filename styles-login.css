@@ -13,17 +13,16 @@
 
     label {
         font-family: 'Montserrat', sans-serif;
-        font-size: 24px;
+        font-size: 20px;
         display: table;
         margin: 5px 0;
     }
 
     h2 {
         font-family: 'Oswald', sans-serif;
-        font-size: 36px;
+        font-size: 32px;
         font-weight: 400;
     }
-
 
 
     .main {
@@ -34,9 +33,14 @@
     }
 
     .container {
-        margin: 0 15px;
-        padding: 0;
+        margin: 10px;
+        padding: 10px 10px 10px 20px;
+        background-color: rgba(255, 255, 255, 0.6);
+        border: 0;
+        border-radius: 15px;
+        position: relative;
     }
+
 
     .back-link {
         display: flex;
@@ -47,7 +51,7 @@
 
     .form-input {
         font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
+        font-size: 18px;
         padding: 10px 0 10px 5px;
         border: 0;
         border-radius: 5px;
@@ -72,12 +76,14 @@
     }
     
     .decor-lines {
+        display: none;
         position: absolute;
         top: 220px;
         right: 0px;
     }
     
     .decor-linesThree {
+        display: none;
         position: absolute;
         top: 180px;
         right: 50px;
@@ -87,7 +93,7 @@
         margin: 25px 0;
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
-        font-size: 22px;
+        font-size: 16px;
         padding: 15px 20px;
         background: #49d3e0;
         background: linear-gradient(90deg, rgba(73,211,224,1) 0%, rgba(61,230,152,1) 100%);
@@ -108,7 +114,7 @@
         margin: 25px 0;
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
-        font-size: 22px;
+        font-size: 16px;
         padding: 15px 35px;
         background: #49d3e0;
         background: linear-gradient(90deg, rgba(73,211,224,1) 0%, rgba(61,230,152,1) 100%);
@@ -126,10 +132,20 @@
     }
 
     .forgot, .agree {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;    
+    }
+
+    .agree {
+        padding: 4px;
+    }
+
+    .forgot {
+        padding: 0;
+    }
+
+    .remember-check {
         font-size: 20px;
-        font-family: 'Montserrat', sans-serif;
-        margin: 7px;
-    
     }
     
     
