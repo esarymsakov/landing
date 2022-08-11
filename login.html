@@ -11,7 +11,119 @@
         <script src="https://kit.fontawesome.com/074e741890.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="main">
+        <div class="main">   
+            <div class="inner-main">
+                <div class="container">
+                    <div class="inner-container">
+                            <div class="form">
+                                <form action="">
+                                    <table>
+                                        <tr>
+                                            <td><h2>Registration</h2></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="input-label">
+                                                    <label class="form-input-lbl" for="name"> Your Name</label>
+                                                    <input type="text" class="form-input" required id="name" placeholder="John Doe">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="input-label">
+                                                    <label class="form-input-lbl" for="email-reg"> Your Email</label>
+                                                    <input type="email" class="form-input" required id="email-reg" placeholder="example@example.com">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="input-label">
+                                                    <label class="form-input-lbl" for="date-reg"> Date Of Birth</label>
+                                                    <input type="date" class="form-input" required id="date-reg" placeholder="01/01/1990.com">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="input-label">
+                                                    <label class="form-input-lbl" for="password-reg"> Create Password</label>
+                                                    <input type="password" class="form-input" required id="password-reg" min="6" placeholder="Password">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="input-label">
+                                                    <label class="form-input-lbl" for="repeat-reg"> Repeat Password</label>
+                                                    <input type="password" class="form-input" required id="repeat-reg" min="6" placeholder="Repeat password">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="agree">
+                                                    <input type="checkbox" required class="agree" id="agree"> I agree with <a classs="policy-link" href="">Terms & Privacy.</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="submit" class="submit" id="submit-reg" value="Registration"></td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </div>
+                            <div class="line">
+                            </div>
+                            <div class="form">
+                                <form action="">
+                                    <table>
+                                        <tr>
+                                            <td><h2>Login</h2></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="input-label">
+                                                    <label class="form-input-lbl" for="email-login"> Email</label>
+                                                    <input type="email" class="form-input" id="email-login" placeholder="example@example.com">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="input-label">
+                                                    <label class="form-input-lbl" for="password-login"> Password</label>
+                                                    <input type="password" class="form-input" id="password-login" placeholder="Enter your password">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="forgot">
+                                                    <p class="forgot">I <a href="">forgot</a> a password</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label for="remember-login" class="remember-check">
+                                                    <input type="checkbox" class="checkbox" id="remember-login"> Remember Me
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="submit" class="submit-login" id="submit-login" value="Login"></td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="back-link">
+                <a href="index.html" class="back-link" value="Go back">Go back</a>
+            </div>
             <div class="zone">
                 <div class="decor-lines">
                     <div class="lines-element" id="circle"></div>
@@ -27,50 +139,6 @@
                     <div class="lines-element" id="circle"></div>
                     <div class="lines-element" id="circle"></div>
                 </div>
-            </div>   
-            <div class="container">
-                <div class="inner-container">
-                        <div class="form">
-                            <form action="">
-                                <h2>Registration</h2>
-                                <label class="form-input-lbl" for="name"> Your Name</label> </td>
-                                <input type="text" class="form-input" required id="name" placeholder="John Doe"></td>
-                                <label class="form-input-lbl" for="email-reg"> Your Email</label> </td>
-                                <input type="email" class="form-input" required id="email-reg" placeholder="example@example.com"></td>
-                                <label class="form-input-lbl" for="date-reg"> Date Of Birth</label> </td>
-                                <input type="date" class="form-input" required id="date-reg" placeholder="01/01/1990.com"></td>
-                                <label class="form-input-lbl" for="password-reg"> Create Password</label> </td>
-                                <input type="password" class="form-input" required id="password-reg" min="6" placeholder="Password"></td>
-                                <label class="form-input-lbl" for="repeat-reg"> Repeat Password</label> </td>
-                                <input type="password" class="form-input" required id="repeat-reg" min="6" placeholder="Repeat password"></td>
-                                <div class="agree">
-                                    <input type="checkbox" required class="agree" id="agree"> I agree with <a classs="policy-link" href="">Terms & Privacy.</a>
-                                </div>
-                                <input type="submit" class="submit" id="submit-reg" value="Registration">
-                            </form>
-                        </div>
-                        <div class="line">
-                        </div>
-                        <div class="form">
-                            <form action="">
-                                <h2>Login</h2>
-                                <label class="form-input-lbl" for="email-login"> Email</label>
-                                <input type="email" class="form-input" id="email-login" placeholder="example@example.com">
-                                <label class="form-input-lbl" for="password-login"> Password</label>
-                                <input type="password" class="form-input" id="password-login" placeholder="Enter your password">
-                                <div class="forgot">
-                                    <p class="forgot">I <a href="">forgot</a> a password</p>
-                                </div>
-                                <label for="remember-login" class="remember-check">
-                                    <input type="checkbox" class="checkbox" id="remember-login"> Remember Me
-                                </label>
-                                <input type="submit" class="submit-login" id="submit-login" value="Login">    
-                            </form>
-                        </div>    
-                </div>
-            </div>
-            <div class="back-link">
-                <a href="index.html" class="back-link" value="Go back">Go back</a>
             </div>
         </div>
         <footer></footer>    
