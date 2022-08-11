@@ -217,6 +217,7 @@ table {
     .input-label {
         display: flex;
         flex-direction: column;
+        margin: 5px 0;
     }
     
     .container {
@@ -224,8 +225,21 @@ table {
         height: 85%;
     }
 
+    .back-link {
+        font-size: 12px;
+        margin: 10px;
+    }
     
+    .form-input {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        padding: 10px;
+        margin: 5px 0;
+        border: 0;
+        border-radius: 4px;
+    }
     
+
     table {
     display: flex;
     flex-direction: column;
@@ -317,7 +331,7 @@ table {
     
     .decor-linesThree {
         position: absolute;
-        top: 579px;
+        top: 745px;
         right: 231px;
     }
 }    
