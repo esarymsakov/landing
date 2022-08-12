@@ -52,7 +52,6 @@ li {
 .header-box {
     position: relative;
     padding: 60px 0;
-    margin: 0px 0px 0px 0px;
     border: 0;
     width: 100%;
     display: flex;
@@ -183,10 +182,16 @@ ul {
 }
 
 .link-login-box {
-    width: 100%;
+    width: 15%;
     height: 25px;
     padding: 5px 0;
+    font-size: 12px;
     
+}
+
+.footer-link-box-to-login {
+    display: flex;
+    justify-content: center;
 }
 
 .link-login {
@@ -481,7 +486,7 @@ footer {
 
 
 /*----------Mobile Responsive----------*/
-@media screen and (max-width: 419.98px) {
+@media screen and (max-width: 479.98px) {
     body {
         padding: 0;
         margin: 0;
@@ -491,14 +496,26 @@ footer {
         width: 100%;
     }
 
+    .subscription-input {
+        margin: 15px 0;
+    }
+
+    .subs-button {
+        margin: 0;
+        font-size: 14px;
+    }
+
 
     .header-box {
-        flex-direction: column-reverse;
+        display: block;
+        padding: 0;
     }
 
     .header-inline {
         width: 100%;
         margin-left: 0;
+        padding: 120px 0;
+
     }
 
     .header-inlineTwo {
@@ -555,7 +572,7 @@ footer {
     }
 
     .header-inline h1 {
-        font-size: 48px;
+        font-size: 44px;
         margin: 0;
         text-align: center;
     }
@@ -573,7 +590,7 @@ footer {
     .header-inline h3 {
         font-size: 24px;
         text-align: center;
-        margin-bottom: 25px;
+        margin-bottom: 5px;
     }
 
     .submit {
@@ -618,9 +635,6 @@ footer {
     }
 
     .sub {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
         margin: 25px 0;
     }
     
